@@ -42,12 +42,19 @@ const pages = [
 export function GET() {
   const entries = pages
     .map(
-      (p) =>
-        `  <url>\n    <loc>${p.url}</loc>\n    <lastmod>2026-06-08</lastmod>\n    <changefreq>${p.changefreq}</changefreq>\n    <priority>${p.priority}</priority>\n  </url>`
+      (p) => `  <url>
+    <loc>${p.url}</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>${p.changefreq}</changefreq>
+    <priority>${p.priority}</priority>
+  </url>`
     )
     .join("\n");
 
-  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries}\n</urlset>`;
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${entries}
+</urlset>`;
 
   return new NextResponse(xml, {
     status: 200,
