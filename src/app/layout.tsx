@@ -34,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="google-site-verification" content="[GSC_VERIFICATION_CODE]" />
+        <meta name="google-site-verification" content="NvGhHEVuRu-DWlc2_43e8NM1o_UYgQWzqD7RNmJa7JI" />
       </head>
       <body className={`${inter.className} antialiased`}>
         <AffiliateDisclosureBanner />
