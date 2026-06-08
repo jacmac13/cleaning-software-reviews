@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Contact CleaningStack",
   description:
     "Contact the CleaningStack team with questions, feedback, or corrections about our cleaning business software reviews.",
-  alternates: { canonical: "https://cleaningstack.com/contact" },
+  alternates: { canonical: "https://cleaning-software-reviews.vercel.app/contact" },
 };
 
 export default function Page() {
@@ -21,13 +21,13 @@ export default function Page() {
       <div className="card mb-8">
         <h2 className="font-bold text-slate-900 mb-3">Get in Touch</h2>
         <p className="text-sm text-slate-600 mb-4">
-          The best way to reach us is by email. We typically respond within 1–2 business days.
+          The best way to reach us is by email. We typically respond within 1â€“2 business days.
         </p>
         <a
           href="mailto:jacmac13@outlook.com"
           className="btn-primary inline-block"
         >
-          Email Us →
+          Email Us â†’
         </a>
       </div>
 
@@ -35,7 +35,7 @@ export default function Page() {
         <div>
           <h2 className="font-semibold text-slate-900 mb-1">Review corrections</h2>
           <p className="text-sm text-slate-600">
-            If something in one of our reviews is factually incorrect or outdated — pricing, features, anything — please let us know. We update reviews regularly and corrections are genuinely appreciated.
+            If something in one of our reviews is factually incorrect or outdated â€” pricing, features, anything â€” please let us know. We update reviews regularly and corrections are genuinely appreciated.
           </p>
         </div>
 

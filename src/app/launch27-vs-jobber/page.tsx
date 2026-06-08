@@ -1,12 +1,12 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { getToolBySlug } from "@/data/tools";
 import HeadToHeadTemplate from "@/components/HeadToHeadTemplate";
 
 export const metadata: Metadata = {
   title: "Launch27 vs Jobber 2026: Cleaning Business Comparison",
   description:
-    "Launch27 vs Jobber compared for cleaning businesses in 2026. Online booking widget vs full field service platform — pricing, features, and which is right for you.",
-  alternates: { canonical: "https://cleaningstack.com/launch27-vs-jobber" },
+    "Launch27 vs Jobber compared for cleaning businesses in 2026. Online booking widget vs full field service platform â€” pricing, features, and which is right for you.",
+  alternates: { canonical: "https://cleaning-software-reviews.vercel.app/launch27-vs-jobber" },
 };
 
 export default function Page() {
@@ -20,16 +20,16 @@ export default function Page() {
       toolA={launch27}
       toolB={jobber}
       verdict="b"
-      verdictReason="Jobber is the better choice for most cleaning businesses because it handles your entire operation — not just bookings. Launch27 is the right choice only if your primary focus is maximising online booking conversions from your website, and you already have other tools handling team management and invoicing."
+      verdictReason="Jobber is the better choice for most cleaning businesses because it handles your entire operation â€” not just bookings. Launch27 is the right choice only if your primary focus is maximising online booking conversions from your website, and you already have other tools handling team management and invoicing."
       toolAWins={[
-        "Most customisable online booking widget — embed directly on your website",
+        "Most customisable online booking widget â€” embed directly on your website",
         "Dynamic pricing engine for complex pricing rules (rooms, frequency, add-ons)",
         "Built-in referral programme to incentivise customer word-of-mouth",
         "Customers never leave your website to complete a booking",
         "Better for businesses with high website traffic converting to bookings",
       ]}
       toolBWins={[
-        "Complete all-in-one platform — goes far beyond just taking bookings",
+        "Complete all-in-one platform â€” goes far beyond just taking bookings",
         "Superior client portal, quoting, and team management tools",
         "Better mobile app rated higher by real users",
         "More reliable and better-supported platform",
@@ -37,7 +37,7 @@ export default function Page() {
       ]}
       toolAFor="You have an established website generating significant traffic, your primary growth lever is online booking conversions, and you already have separate tools for invoicing and team management."
       toolBFor="You want one platform to run your entire cleaning business, you need quoting, invoicing, scheduling, and team management, or you're still building your online presence."
-      pricingAnalysis="Launch27's pricing ($59/mo Lite, $109/mo Standard, $199/mo Business) is comparable to Jobber's tiers. At similar price points, Jobber offers significantly more features. The main scenario where Launch27 wins on value is if you're specifically using its booking widget as a conversion optimisation tool and can attribute revenue growth to it — in that case, the cost is justified. For general operations, Jobber gives you more per dollar."
+      pricingAnalysis="Launch27's pricing ($59/mo Lite, $109/mo Standard, $199/mo Business) is comparable to Jobber's tiers. At similar price points, Jobber offers significantly more features. The main scenario where Launch27 wins on value is if you're specifically using its booking widget as a conversion optimisation tool and can attribute revenue growth to it â€” in that case, the cost is justified. For general operations, Jobber gives you more per dollar."
       faqs={[
         {
           question: "Is Launch27 still being actively developed in 2026?",
@@ -45,7 +45,7 @@ export default function Page() {
         },
         {
           question: "Can I embed a Jobber booking widget on my website too?",
-          answer: "Yes — Jobber has an online booking feature that can be embedded on your website. While it's not as customisable as Launch27's widget, it's more than adequate for most cleaning businesses. The advantage of Jobber's booking is that it feeds directly into your complete job management workflow without any integration work.",
+          answer: "Yes â€” Jobber has an online booking feature that can be embedded on your website. While it's not as customisable as Launch27's widget, it's more than adequate for most cleaning businesses. The advantage of Jobber's booking is that it feeds directly into your complete job management workflow without any integration work.",
         },
         {
           question: "Does Launch27 handle team management and GPS tracking?",
@@ -57,12 +57,12 @@ export default function Page() {
         },
         {
           question: "Can Launch27 integrate with QuickBooks?",
-          answer: "Yes — Launch27 integrates with QuickBooks Online through its native integration and also through Zapier. However, this is a separate sync that requires setup. Jobber's QuickBooks integration is more seamless and keeps invoices, payments, and clients automatically in sync.",
+          answer: "Yes â€” Launch27 integrates with QuickBooks Online through its native integration and also through Zapier. However, this is a separate sync that requires setup. Jobber's QuickBooks integration is more seamless and keeps invoices, payments, and clients automatically in sync.",
         },
       ]}
       relatedPages={[
         { title: "Launch27 Review", href: "/launch27-review", description: "Full Launch27 review for cleaning businesses." },
-        { title: "Jobber Review", href: "/jobber-review-cleaning-business", description: "Full Jobber review — the all-in-one alternative." },
+        { title: "Jobber Review", href: "/jobber-review-cleaning-business", description: "Full Jobber review â€” the all-in-one alternative." },
         { title: "Best Scheduling Software", href: "/best-scheduling-software-for-cleaning-business", description: "Top scheduling tools for cleaning businesses." },
         { title: "Best Software Overall", href: "/best-software-for-cleaning-business", description: "Our top picks across all categories." },
       ]}

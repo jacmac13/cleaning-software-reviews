@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "About CleaningStack: How We Review Cleaning Business Software",
   description:
     "CleaningStack reviews cleaning business software honestly, with hands-on testing and no sponsored rankings. Learn about our methodology and how we choose our picks.",
-  alternates: { canonical: "https://cleaningstack.com/about" },
+  alternates: { canonical: "https://cleaning-software-reviews.vercel.app/about" },
 };
 
 export default function Page() {
@@ -18,7 +18,7 @@ export default function Page() {
 
       <div className="prose-clean">
         <p>
-          CleaningStack exists because most software review sites are useless for cleaning business owners. They&apos;re written by generalists who&apos;ve never run a cleaning round, tested by people who don&apos;t understand the difference between a maid service and a commercial cleaning company, and ranked based on who pays the most affiliate commission — not what actually works.
+          CleaningStack exists because most software review sites are useless for cleaning business owners. They&apos;re written by generalists who&apos;ve never run a cleaning round, tested by people who don&apos;t understand the difference between a maid service and a commercial cleaning company, and ranked based on who pays the most affiliate commission â€” not what actually works.
         </p>
 
         <p>
@@ -32,16 +32,16 @@ export default function Page() {
         </p>
 
         <ul>
-          <li><strong>Recurring schedule setup</strong> — how easily can you set up a client who comes every other Tuesday at 9am?</li>
-          <li><strong>Automated reminders</strong> — do they actually send, on time, with professional-looking messages?</li>
-          <li><strong>Mobile app quality</strong> — is it something a part-time cleaner can figure out without a tutorial?</li>
-          <li><strong>Invoice generation</strong> — how many clicks from completed job to sent invoice?</li>
-          <li><strong>Support quality</strong> — what actually happens when you submit a ticket or start a chat?</li>
-          <li><strong>Pricing honesty</strong> — what does the feature you actually need cost, not just the starting price?</li>
+          <li><strong>Recurring schedule setup</strong> â€” how easily can you set up a client who comes every other Tuesday at 9am?</li>
+          <li><strong>Automated reminders</strong> â€” do they actually send, on time, with professional-looking messages?</li>
+          <li><strong>Mobile app quality</strong> â€” is it something a part-time cleaner can figure out without a tutorial?</li>
+          <li><strong>Invoice generation</strong> â€” how many clicks from completed job to sent invoice?</li>
+          <li><strong>Support quality</strong> â€” what actually happens when you submit a ticket or start a chat?</li>
+          <li><strong>Pricing honesty</strong> â€” what does the feature you actually need cost, not just the starting price?</li>
         </ul>
 
         <p>
-          We also talk to cleaning business owners. The insights from operators who use these tools every day — the frustrations, the workarounds, the things they wish they&apos;d known before signing up — inform our reviews in ways that solo testing never fully captures.
+          We also talk to cleaning business owners. The insights from operators who use these tools every day â€” the frustrations, the workarounds, the things they wish they&apos;d known before signing up â€” inform our reviews in ways that solo testing never fully captures.
         </p>
 
         <h2>Our Scoring System</h2>
@@ -51,7 +51,7 @@ export default function Page() {
         </p>
 
         <p>
-          Our overall scores are genuine assessments. A 4.5 from us is not a polished 5 with caveats buried in footnotes — it reflects a platform with meaningful strengths and real limitations. We never inflate scores based on affiliate relationships.
+          Our overall scores are genuine assessments. A 4.5 from us is not a polished 5 with caveats buried in footnotes â€” it reflects a platform with meaningful strengths and real limitations. We never inflate scores based on affiliate relationships.
         </p>
 
         <h2>On Affiliate Links</h2>
@@ -61,7 +61,7 @@ export default function Page() {
         </p>
 
         <p>
-          Every platform on this site is listed because we believe it&apos;s a genuinely good option for at least some cleaning businesses — not because of the commission rate. Platforms with lower commissions appear higher in our rankings when our testing says they deserve it (ZenMaid is a good example: excellent for maid services, not the highest affiliate payer).
+          Every platform on this site is listed because we believe it&apos;s a genuinely good option for at least some cleaning businesses â€” not because of the commission rate. Platforms with lower commissions appear higher in our rankings when our testing says they deserve it (ZenMaid is a good example: excellent for maid services, not the highest affiliate payer).
         </p>
 
         <p>
@@ -75,7 +75,7 @@ export default function Page() {
         <h2>Who We Are</h2>
 
         <p>
-          CleaningStack was built by a small team with backgrounds in field service operations and software product evaluation. We&apos;re not cleaning industry insiders — we&apos;re software people who spent significant time understanding the cleaning industry specifically to build this resource. We believe software reviews should be useful, which means they should be honest about limitations, not just enthusiastic about features.
+          CleaningStack was built by a small team with backgrounds in field service operations and software product evaluation. We&apos;re not cleaning industry insiders â€” we&apos;re software people who spent significant time understanding the cleaning industry specifically to build this resource. We believe software reviews should be useful, which means they should be honest about limitations, not just enthusiastic about features.
         </p>
 
         <p>
@@ -93,7 +93,7 @@ export default function Page() {
           Not sure where to start? Take our 5-question quiz and get a personalised recommendation in under 2 minutes.
         </p>
         <Link href="/#quiz" className="btn-primary inline-block">
-          Take the Quiz →
+          Take the Quiz â†’
         </Link>
       </div>
     </div>

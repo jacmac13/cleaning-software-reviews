@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { tools } from "@/data/tools";
 import { affiliateLinks } from "@/config/affiliateLinks";
@@ -9,7 +9,7 @@ import FAQSection from "@/components/ui/FAQSection";
 export const metadata: Metadata = {
   title: "Best Cleaning Business Software 2026: Find Your Perfect Tool",
   description:
-    "Independent reviews of the best software for cleaning businesses in 2026. Take our 60-second quiz for a personalised recommendation — Jobber, Housecall Pro, ZenMaid, and more.",
+    "Independent reviews of the best software for cleaning businesses in 2026. Take our 60-second quiz for a personalised recommendation â€” Jobber, Housecall Pro, ZenMaid, and more.",
   openGraph: {
     title: "Best Cleaning Business Software 2026 | CleaningStack",
     description:
@@ -26,7 +26,7 @@ const homepageFaqs = [
   {
     question: "Is there free software for cleaning businesses?",
     answer:
-      "Yes — both ZenMaid and Connecteam offer genuine free plans. ZenMaid is free for up to 3 active clients (ideal for new maid services just starting out), while Connecteam is free forever for teams of up to 10 users. Both work without a credit card. Acuity Scheduling doesn't have a free tier but starts at just $20/month if you need simple online booking.",
+      "Yes â€” both ZenMaid and Connecteam offer genuine free plans. ZenMaid is free for up to 3 active clients (ideal for new maid services just starting out), while Connecteam is free forever for teams of up to 10 users. Both work without a credit card. Acuity Scheduling doesn't have a free tier but starts at just $20/month if you need simple online booking.",
   },
   {
     question: "Do I need dedicated cleaning business software, or will a generic tool do?",
@@ -41,12 +41,12 @@ const homepageFaqs = [
   {
     question: "How much does cleaning business software cost?",
     answer:
-      "Costs range from free (ZenMaid for up to 3 clients, Connecteam for up to 10 users) to $299+/month for enterprise-level platforms. For most small cleaning businesses, expect to pay $29–$99/month for a solid tool. Jobber starts at $49/month, ZenMaid at $49/month, and Swept at $30/month. These costs are typically recouped in the first 2–3 hours of admin time they save you each week.",
+      "Costs range from free (ZenMaid for up to 3 clients, Connecteam for up to 10 users) to $299+/month for enterprise-level platforms. For most small cleaning businesses, expect to pay $29â€“$99/month for a solid tool. Jobber starts at $49/month, ZenMaid at $49/month, and Swept at $30/month. These costs are typically recouped in the first 2â€“3 hours of admin time they save you each week.",
   },
   {
     question: "Can I run my cleaning business from my phone?",
     answer:
-      "Yes — most modern cleaning business software has strong mobile apps. Jobber and Housecall Pro are consistently rated the best mobile apps in the category (both are 4.7+ stars on the App Store). Connecteam was designed mobile-first. For solo cleaners, ZenMaid and Acuity Scheduling both have capable mobile apps that let you manage bookings and communicate with clients entirely from your phone.",
+      "Yes â€” most modern cleaning business software has strong mobile apps. Jobber and Housecall Pro are consistently rated the best mobile apps in the category (both are 4.7+ stars on the App Store). Connecteam was designed mobile-first. For solo cleaners, ZenMaid and Acuity Scheduling both have capable mobile apps that let you manage bookings and communicate with clients entirely from your phone.",
   },
   {
     question: "Which cleaning software is best for commercial cleaning contracts?",
@@ -56,7 +56,7 @@ const homepageFaqs = [
   {
     question: "Does cleaning business software integrate with QuickBooks?",
     answer:
-      "Yes — most major cleaning business platforms integrate with QuickBooks Online. Jobber, Housecall Pro, ZenMaid, Swept, Launch27, and Connecteam all offer QuickBooks Online integration. ServiceM8 integrates with Xero (more common in Australia and the UK) and QuickBooks. If you're on QuickBooks Desktop rather than Online, Jobber is the most reliable integration partner.",
+      "Yes â€” most major cleaning business platforms integrate with QuickBooks Online. Jobber, Housecall Pro, ZenMaid, Swept, Launch27, and Connecteam all offer QuickBooks Online integration. ServiceM8 integrates with Xero (more common in Australia and the UK) and QuickBooks. If you're on QuickBooks Desktop rather than Online, Jobber is the most reliable integration partner.",
   },
 ];
 
@@ -68,8 +68,8 @@ const articleSchema = {
     "Independent reviews of the best software for cleaning businesses including Jobber, Housecall Pro, ZenMaid, and more.",
   datePublished: "2026-06-01",
   dateModified: "2026-06-08",
-  author: { "@type": "Organization", name: "CleaningStack", url: "https://cleaningstack.com" },
-  publisher: { "@type": "Organization", name: "CleaningStack", url: "https://cleaningstack.com" },
+  author: { "@type": "Organization", name: "CleaningStack", url: "https://cleaning-software-reviews.vercel.app" },
+  publisher: { "@type": "Organization", name: "CleaningStack", url: "https://cleaning-software-reviews.vercel.app" },
 };
 
 export default function HomePage() {
@@ -84,7 +84,7 @@ export default function HomePage() {
       <section className="bg-slate-900 text-white py-16 sm:py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
           <div className="inline-flex items-center gap-2 bg-green-500/20 text-green-400 text-sm font-medium px-4 py-2 rounded-full mb-6">
-            <span>🧹</span> Updated June 2026 · 8 tools reviewed
+            <span>ðŸ§¹</span> Updated June 2026 Â· 8 tools reviewed
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 text-balance">
             Best Software for Your <span className="text-green-400">Cleaning Business</span>
@@ -95,7 +95,7 @@ export default function HomePage() {
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a href="#quiz" className="btn-primary text-base px-8 py-4">
-              Find My Software in 60 Seconds →
+              Find My Software in 60 Seconds â†’
             </a>
             <a
               href="#comparison"
@@ -133,7 +133,7 @@ export default function HomePage() {
           <div className="text-center mb-8">
             <h2 className="text-3xl font-bold text-slate-900 mb-3">Not Sure Which Tool You Need?</h2>
             <p className="text-slate-500 max-w-xl mx-auto">
-              Answer 5 quick questions and we&apos;ll match you with the 2–3 tools best suited to your
+              Answer 5 quick questions and we&apos;ll match you with the 2â€“3 tools best suited to your
               specific business, budget, and pain points.
             </p>
           </div>
@@ -199,14 +199,14 @@ export default function HomePage() {
                   <Link href={pick.href} className="text-sm text-green-600 hover:underline">
                     Read review
                   </Link>
-                  <span className="text-slate-300">·</span>
+                  <span className="text-slate-300">Â·</span>
                   <Link
                     href={pick.link}
                     target="_blank"
                     rel="nofollow noopener noreferrer"
                     className="text-sm text-slate-500 hover:text-slate-700"
                   >
-                    Visit site →
+                    Visit site â†’
                   </Link>
                 </div>
               </div>
@@ -229,23 +229,23 @@ export default function HomePage() {
           <h2 className="text-2xl font-bold text-slate-900 mb-4">How We Review Cleaning Business Software</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-sm text-slate-600">
             <div>
-              <h3 className="font-semibold text-slate-900 mb-2">🔍 What we look for</h3>
+              <h3 className="font-semibold text-slate-900 mb-2">ðŸ” What we look for</h3>
               <ul className="space-y-1">
-                <li>• Ease of use for non-technical owners</li>
-                <li>• Scheduling and recurring job management</li>
-                <li>• Invoicing and payment collection</li>
-                <li>• Mobile app quality (tested on iOS and Android)</li>
-                <li>• Value for money at each pricing tier</li>
+                <li>â€¢ Ease of use for non-technical owners</li>
+                <li>â€¢ Scheduling and recurring job management</li>
+                <li>â€¢ Invoicing and payment collection</li>
+                <li>â€¢ Mobile app quality (tested on iOS and Android)</li>
+                <li>â€¢ Value for money at each pricing tier</li>
               </ul>
             </div>
             <div>
-              <h3 className="font-semibold text-slate-900 mb-2">✅ Our standards</h3>
+              <h3 className="font-semibold text-slate-900 mb-2">âœ… Our standards</h3>
               <ul className="space-y-1">
-                <li>• We sign up for every tool and test it hands-on</li>
-                <li>• Ratings reflect real-world use, not marketing claims</li>
-                <li>• We include honest cons — every tool has weaknesses</li>
-                <li>• Affiliate relationships do not influence rankings</li>
-                <li>• We update reviews when pricing or features change</li>
+                <li>â€¢ We sign up for every tool and test it hands-on</li>
+                <li>â€¢ Ratings reflect real-world use, not marketing claims</li>
+                <li>â€¢ We include honest cons â€” every tool has weaknesses</li>
+                <li>â€¢ Affiliate relationships do not influence rankings</li>
+                <li>â€¢ We update reviews when pricing or features change</li>
               </ul>
             </div>
           </div>
@@ -272,7 +272,7 @@ export default function HomePage() {
               {
                 title: "Maid Services",
                 href: "/best-software-for-maid-service",
-                desc: "Residential house cleaning businesses, 1–15 staff.",
+                desc: "Residential house cleaning businesses, 1â€“15 staff.",
               },
               {
                 title: "Commercial Cleaning",
@@ -282,7 +282,7 @@ export default function HomePage() {
               {
                 title: "Small Teams",
                 href: "/best-software-for-small-cleaning-business",
-                desc: "2–10 staff, ready to get organised and grow.",
+                desc: "2â€“10 staff, ready to get organised and grow.",
               },
               {
                 title: "Australian Businesses",
@@ -326,7 +326,7 @@ export default function HomePage() {
             Answer 5 questions and get a personalised recommendation in under a minute.
           </p>
           <a href="#quiz" className="btn-primary text-base px-8 py-4">
-            Find My Software →
+            Find My Software â†’
           </a>
         </section>
       </div>

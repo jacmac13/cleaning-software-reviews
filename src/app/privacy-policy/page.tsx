@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Privacy Policy | CleaningStack",
   description:
     "CleaningStack privacy policy. How we collect, use, and protect your personal information.",
-  alternates: { canonical: "https://cleaningstack.com/privacy-policy" },
+  alternates: { canonical: "https://cleaning-software-reviews.vercel.app/privacy-policy" },
 };
 
 export default function Page() {
@@ -18,7 +18,7 @@ export default function Page() {
 
       <div className="prose-clean">
         <p>
-          CleaningStack (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;) is committed to protecting your privacy. This policy explains how we collect, use, and protect your personal information when you use cleaningstack.com.
+          CleaningStack (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;) is committed to protecting your privacy. This policy explains how we collect, use, and protect your personal information when you use cleaning-software-reviews.vercel.app.
         </p>
 
         <h2>Information We Collect</h2>

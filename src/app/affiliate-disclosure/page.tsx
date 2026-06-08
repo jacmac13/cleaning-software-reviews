@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Affiliate Disclosure | CleaningStack",
   description:
     "CleaningStack affiliate disclosure. How our affiliate relationships work and how they do (and don't) affect our reviews and rankings.",
-  alternates: { canonical: "https://cleaningstack.com/affiliate-disclosure" },
+  alternates: { canonical: "https://cleaning-software-reviews.vercel.app/affiliate-disclosure" },
 };
 
 export default function Page() {
@@ -23,7 +23,7 @@ export default function Page() {
 
         <h2>How Affiliate Links Work</h2>
         <p>
-          Some links on CleaningStack are affiliate links. When you click one of these links and subsequently subscribe to or purchase a software platform, CleaningStack earns a commission from the software company. You pay nothing extra — the commission comes from the software company&apos;s marketing budget, not from you.
+          Some links on CleaningStack are affiliate links. When you click one of these links and subsequently subscribe to or purchase a software platform, CleaningStack earns a commission from the software company. You pay nothing extra â€” the commission comes from the software company&apos;s marketing budget, not from you.
         </p>
         <p>
           Affiliate links are marked with <code>rel=&quot;nofollow noopener noreferrer&quot;</code> and open in a new tab. They are typically the primary call-to-action buttons (e.g., &quot;Try Jobber Free for 14 Days&quot;). Regular links within article text to comparison or review pages are not affiliate links.
@@ -50,13 +50,13 @@ export default function Page() {
         </p>
         <ul>
           <li>
-            <strong>Our top picks aren&apos;t chosen based on commission rates.</strong> ZenMaid — one of our most recommended tools for maid services — pays lower commissions than several platforms ranked below it. We rank it higher because it&apos;s genuinely better for its target user.
+            <strong>Our top picks aren&apos;t chosen based on commission rates.</strong> ZenMaid â€” one of our most recommended tools for maid services â€” pays lower commissions than several platforms ranked below it. We rank it higher because it&apos;s genuinely better for its target user.
           </li>
           <li>
             <strong>We include legitimate cons for every platform.</strong> A positive review that ignores real weaknesses doesn&apos;t help you make a good decision. We test for the downsides and report them honestly.
           </li>
           <li>
-            <strong>Our quiz recommendations use scoring logic, not affiliate weighting.</strong> The tool recommender recommends based on your answers about team size, budget, and needs — not based on which tool pays better.
+            <strong>Our quiz recommendations use scoring logic, not affiliate weighting.</strong> The tool recommender recommends based on your answers about team size, budget, and needs â€” not based on which tool pays better.
           </li>
         </ul>
 

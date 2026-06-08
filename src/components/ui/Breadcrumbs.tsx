@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 interface BreadcrumbItem {
   label: string;
@@ -17,7 +17,7 @@ export default function Breadcrumbs({ items }: BreadcrumbsProps) {
       "@type": "ListItem",
       position: idx + 1,
       name: item.label,
-      ...(item.href ? { item: `https://cleaningstack.com${item.href}` } : {}),
+      ...(item.href ? { item: `https://cleaning-software-reviews.vercel.app${item.href}` } : {}),
     })),
   };
 

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { tools } from "@/data/tools";
 import { affiliateLinks } from "@/config/affiliateLinks";
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "All Cleaning Business Software Reviews 2026 | CleaningStack",
   description:
     "Browse all 8 cleaning business software tools reviewed by CleaningStack. Compare Jobber, ZenMaid, Housecall Pro, Swept, and more for your cleaning business.",
-  alternates: { canonical: "https://cleaningstack.com/tools" },
+  alternates: { canonical: "https://cleaning-software-reviews.vercel.app/tools" },
 };
 
 const reviewLinks: Record<string, string> = {
@@ -29,7 +29,7 @@ export default function Page() {
         All Cleaning Business Software Reviews
       </h1>
       <p className="text-lg text-slate-600 mb-8 max-w-2xl">
-        Every platform we&apos;ve tested and reviewed for cleaning businesses — from solo operators to commercial cleaning companies. Click any tool for a full review.
+        Every platform we&apos;ve tested and reviewed for cleaning businesses â€” from solo operators to commercial cleaning companies. Click any tool for a full review.
       </p>
 
       <div className="grid grid-cols-1 gap-6">
@@ -99,7 +99,7 @@ export default function Page() {
                       href={reviewLink}
                       className="btn-outline text-sm py-2 text-center"
                     >
-                      Read Review →
+                      Read Review â†’
                     </Link>
                   )}
                 </div>
@@ -119,7 +119,7 @@ export default function Page() {
             { title: "For Commercial Cleaning", href: "/best-software-for-commercial-cleaning-business", desc: "Software for commercial cleaning operations" },
             { title: "For Solo Cleaners", href: "/best-software-for-solo-cleaner", desc: "Simple tools for self-employed cleaners" },
             { title: "Free Options", href: "/best-free-software-for-cleaning-business", desc: "Genuinely free cleaning software" },
-            { title: "For Small Teams", href: "/best-software-for-small-cleaning-business", desc: "Best for 2–10 staff cleaning businesses" },
+            { title: "For Small Teams", href: "/best-software-for-small-cleaning-business", desc: "Best for 2â€“10 staff cleaning businesses" },
             { title: "Scheduling Tools", href: "/best-scheduling-software-for-cleaning-business", desc: "Best booking and scheduling platforms" },
             { title: "Invoicing Tools", href: "/best-invoicing-software-for-cleaning-business", desc: "Best for billing and payment collection" },
             { title: "For Beginners", href: "/cleaning-business-software-for-beginners", desc: "Easiest options for new cleaning businesses" },
@@ -143,9 +143,9 @@ export default function Page() {
       <section className="mt-10 bg-slate-50 rounded-2xl p-6">
         <h2 className="font-bold text-slate-900 mb-2">How We Review</h2>
         <p className="text-sm text-slate-600 leading-relaxed">
-          Every platform on CleaningStack has been hands-on tested by our team. We evaluate scheduling, invoicing, mobile app quality, customer support, and value for money — specifically for cleaning businesses, not generic field service operations. Some links on this page are affiliate links; we earn a commission if you subscribe, at no extra cost to you. Our reviews are independent and our scores are based on testing, not sponsorship.{" "}
+          Every platform on CleaningStack has been hands-on tested by our team. We evaluate scheduling, invoicing, mobile app quality, customer support, and value for money â€” specifically for cleaning businesses, not generic field service operations. Some links on this page are affiliate links; we earn a commission if you subscribe, at no extra cost to you. Our reviews are independent and our scores are based on testing, not sponsorship.{" "}
           <Link href="/about" className="text-green-600 hover:underline">
-            Learn more about how we test →
+            Learn more about how we test â†’
           </Link>
         </p>
       </section>
